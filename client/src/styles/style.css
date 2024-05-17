@@ -5,3 +5,40 @@
 /* ====================== Font ====================== */
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Yesteryear&display=swap");
 /* ====================== End of Font ====================== */
+
+/* ====================== Banner Section ====================== */
+.banner {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url(../assets/slide/slide1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  z-index: 100;
+}
+.banner::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url(../assets/slide/mask-slide.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: -10;
+}
+.banner::before {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  top: 100px;
+  width: 50%;
+  background-image: url(../assets/slide/mask-fly.png);
+  background-repeat: no-repeat;
+  z-index: -9;
+}
+.h-inherit {
+  height: inherit;
+}
+/* ====================== End of Banner Section ====================== */

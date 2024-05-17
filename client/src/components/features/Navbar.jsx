@@ -20,7 +20,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="relative bg-white shadow">
+    <nav className="relative bg-white shadow z-[1000]">
       <div className="container px-6 py-3 mx-auto md:flex">
         <div className="flex items-center justify-between">
           <a href="#">
