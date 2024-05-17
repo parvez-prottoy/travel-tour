@@ -17,7 +17,11 @@ export default {
         jakarta: "'Plus Jakarta Sans', sans-serif",
         yesteryear: "'Yesteryear', cursive",
       },
-      colors: {},
+      colors: {
+        primary: "#1D231F",
+        info: "#4DA528",
+        light: "#B4B4B4",
+      },
     },
   },
   plugins: [],
